@@ -32,7 +32,17 @@ li {
 	font-size: 20px;
 }
 
-footer p{
+.author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.copyright {
     font-size: 12px;
     text-align: center;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
 }
