@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My webpage - The Basic Language of the Web: HTML</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -29,7 +30,7 @@
           height="50"
         />
 
-        <p>
+        <p class="author">
           Posted by
           <strong>Laura Jones</strong>
           on Monday, June 21st 2027
@@ -55,14 +56,11 @@
 
       <p>
         HTML stands for
-        <strong>H</strong>
-        yper
-        <strong>T</strong>
-        ext
-        <strong>M</strong>
-        arkup
-        <strong>L</strong>
-        anguage. It's a markup language that web developers use to structure and
+        <strong>H</strong>yper
+        <strong>T</strong>ext
+        <strong>M</strong>arkup
+        <strong>L</strong>anguage. 
+        It's a markup language that web developers use to structure and
         describe the content of a webpage (not a programming language).
       </p>
 
@@ -115,26 +113,29 @@
     <aside>
         <h4>Related post</h4>
 
-        <ul>
+        <ul class="related">
             <li>
                 <img src="img/related-1.jpg" alt="Man writing on computer" width="75" height="75">
                 <a href="#">How to learn Web Development</a>
-                <p>By Zbigniew Kulczyński</p>
+                <p class="related-author">By Zbigniew Kulczyński</p>
             <li>
                 <img src="img/related-2.jpg" alt="Storm" width="75" height="75">
                 <a href="#">Unknown Power of CSS</a>
-                <p>By Agnieszka Kulczyńska</p>
+                <p class="related-author">By Agnieszka Kulczyńska</p>
             </li>
             <li>
                 <img src="img/related-3.jpg" alt="Code on screen" width="75" height="75">
-                <a href="Why JavaScript is awsome"></a>
-                <p>By Aleksander Kulczyński</p>
+                <a href="#">Why JavaScript is awsome</a>
+                <p class="related-author">By Aleksander Kulczyński</p>
             </li>
         </ul>
     </aside>
 
     <footer>
-         <p>&copy; 2027 by The Code Magazine</p>
+         <p class="copyright">&copy; 2027 by The Code Magazine</p>
     </footer>
+
+
+
   </body>
 </html>
