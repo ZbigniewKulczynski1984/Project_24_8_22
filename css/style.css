@@ -1,10 +1,14 @@
 * {
 	font-family: sans-serif;
+	color: #444
+}
+
+h1, h2, h3 {
+	color: #088fa3;
 }
 
 h1 {
-	color: blue;
-	font-size: 26px;
+		font-size: 26px;
 	text-transform: uppercase;
 	font-style: italic;
 }
@@ -23,8 +27,8 @@ h4 {
 	text-align: center;
 }
 p {
-	font-size: 22px;
 
+	font-size: 22px;
 	line-height: 1.5;
 }
 
@@ -49,4 +53,13 @@ li {
 
 .related{
     list-style: none;
+}
+
+.main-header {
+	background-color: #f7f7f7;
+}
+
+aside {
+	background-color: #f7f7f7;
+	border: 5px solid #088fa3
 }
