@@ -1,4 +1,6 @@
 * {
+	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
 	color: #444
 }
@@ -18,10 +20,13 @@ h1 {
 }
 
 h2 {
+	margin-bottom: 30px;
 	font-size: 40px;
 }
 
 h3 {
+	margin-top: 40px;
+	margin-bottom: 20px;
 	font-size: 30px;
 }
 
@@ -31,13 +36,21 @@ h4 {
 	text-align: center;
 }
 p {
-
+	margin-bottom: 15px;
 	font-size: 22px;
 	line-height: 1.5;
 }
-
+ul , ol {
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
 li {
+	margin-bottom: 10px;
 	font-size: 20px;
+}
+
+li:last-child {
+	margin-bottom: 0;
 }
 
 .author {
@@ -46,6 +59,7 @@ li {
 }
 
 .copyright {
+	margin-top: 10px;
     font-size: 12px;
     text-align: center;
 }
@@ -60,10 +74,19 @@ li {
 }
 
 .main-header {
+	margin-bottom: 60px;
+	padding: 20px 40px;
 	background-color: #f7f7f7;
 }
 
+.post-header {
+	margin-bottom: 40px;
+}
+article {
+	margin-bottom: 60px;
+}
 aside {
+	padding: 50px 0;
 	background-color: #f7f7f7;
 	border-top: 5px solid #088fa3;
 	border-bottom: 5px solid #088fa3;
@@ -102,4 +125,5 @@ a:hover {
 a:active {
 	background-color: #333;
 	font-style: italic;
-}
+} 
+
