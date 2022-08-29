@@ -84,3 +84,22 @@ li:nth-child(odd){
 li:nth-child(even){
 	color:blue;
 } */
+
+/* article p:first-of-type {
+	color:red;
+} */
+
+a {
+	color: #088fa3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orangered;
+	font-weight: bold;
+	text-decoration: underline solid orangered;
+}
+a:active {
+	background-color: #333;
+	font-style: italic;
+}
