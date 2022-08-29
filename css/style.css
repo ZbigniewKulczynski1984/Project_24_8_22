@@ -3,6 +3,10 @@
 	color: #444
 }
 
+/* body {
+	background-color: #;
+} */
+
 h1, h2, h3 {
 	color: #088fa3;
 }
@@ -61,5 +65,41 @@ li {
 
 aside {
 	background-color: #f7f7f7;
-	border: 5px solid #088fa3
+	border-top: 5px solid #088fa3;
+	border-bottom: 5px solid #088fa3;
+}
+
+/* li:first-child {
+	font-weight: bold;
+}
+
+li:last-child {
+	font-style: italic;
+}
+
+li:nth-child(odd){
+	color:red;
+}
+
+li:nth-child(even){
+	color:blue;
+} */
+
+/* article p:first-of-type {
+	color:red;
+} */
+
+a {
+	color: #088fa3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orangered;
+	font-weight: bold;
+	text-decoration: underline solid orangered;
+}
+a:active {
+	background-color: #333;
+	font-style: italic;
 }
