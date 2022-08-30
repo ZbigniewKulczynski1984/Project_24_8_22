@@ -128,4 +128,8 @@ a:active {
 	background-color: #333;
 	font-style: italic;
 } 
+.post-img {
+	height: auto;
+	width: 600px;
+}
 
