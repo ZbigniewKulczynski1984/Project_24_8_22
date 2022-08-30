@@ -77,6 +77,7 @@ li:last-child {
 	margin-bottom: 60px;
 	padding: 20px 40px;
 	background-color: #f7f7f7;
+	height: 80px;
 }
 
 .post-header {
@@ -90,6 +91,7 @@ aside {
 	background-color: #f7f7f7;
 	border-top: 5px solid #088fa3;
 	border-bottom: 5px solid #088fa3;
+	width: 500px;
 }
 
 /* li:first-child {
@@ -126,4 +128,8 @@ a:active {
 	background-color: #333;
 	font-style: italic;
 } 
+.post-img {
+	height: auto;
+	width: 600px;
+}
 
