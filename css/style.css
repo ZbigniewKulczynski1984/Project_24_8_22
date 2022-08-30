@@ -54,6 +54,7 @@ ul , ol {
 li {
 	margin-bottom: 10px;
 	font-size: 20px;
+	/* display:inline; */
 }
 
 li:last-child {
@@ -84,7 +85,7 @@ li:last-child {
 	margin-bottom: 60px;
 	padding: 20px 40px;
 	background-color: #f7f7f7;
-	height: 80px;
+	/* height: 80px; */
 }
 
 .post-header {
@@ -138,5 +139,12 @@ a:active {
 .post-img {
 	height: auto;
 	width: 100%;
+}
+
+nav a:link {
+	/* background-color: orangered;
+	margin: 20px;
+	padding: 20px;
+	display: block; */
 }
 
