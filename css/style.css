@@ -5,9 +5,9 @@
 	color: #444
 }
 
-/* body {
-	background-color: #;
-} */
+body {
+	position: relative;
+}
 
 .container {
 	margin: 0 auto;
@@ -100,6 +100,15 @@ aside {
 	border-top: 5px solid #088fa3;
 	border-bottom: 5px solid #088fa3;
 	width: 500px;
+}
+button {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	font-size: 20px;
+	padding: 20px;
+	cursor: pointer;
+
 }
 
 /* li:first-child {
