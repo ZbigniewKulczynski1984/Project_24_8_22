@@ -150,4 +150,7 @@ nav a:link {
 	padding: 20px;
 	display: block; */
 }
+nav a:link: :last-child {
+	margin-right: 0;
+}
 
