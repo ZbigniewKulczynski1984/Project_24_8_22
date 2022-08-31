@@ -142,6 +142,9 @@ a:active {
 }
 
 nav a:link {
+	margin-right: 30px;
+	margin-top: 10px;
+	display: inline-block;
 	/* background-color: orangered;
 	margin: 20px;
 	padding: 20px;
