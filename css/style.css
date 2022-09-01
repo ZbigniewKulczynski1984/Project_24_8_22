@@ -26,10 +26,18 @@ h1 {
 	text-transform: uppercase;
 	font-style: italic;
 }
+h1::first-letter{
+	font-style: normal;
+	margin-right: 5px;
+}
 
 h2 {
+	position: relative;
 	margin-bottom: 30px;
 	font-size: 40px;
+}
+h2::first-letter{
+	font-size: 60px;
 }
 
 h3 {
@@ -48,6 +56,22 @@ p {
 	font-size: 22px;
 	line-height: 1.5;
 }
+h3 + p::first-line{
+
+}
+h2::after {
+	content: "TOP";
+	position: absolute;
+	top: -15px;
+	right: -25px;
+	display:inline-block;
+	padding: 5px 10px;
+	background-color: #ffe70e;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+
 ul , ol {
 	margin-left: 50px;
 	margin-bottom: 20px;
