@@ -5,6 +5,8 @@
 	color: #444
 }
 
+
+
 body {
 	/* position: relative; */
 }
@@ -59,7 +61,7 @@ p {
 h3 + p::first-line{
 
 }
-h2::after {
+h2::before {
 	content: "TOP";
 	position: absolute;
 	top: -15px;
@@ -127,6 +129,14 @@ aside {
 	border-bottom: 5px solid #088fa3;
 	width: 500px;
 }
+
+nav {
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
 button {
 	position: absolute;
 	bottom: 50px;
